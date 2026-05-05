@@ -1,0 +1,68 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Drive: List Items",
+            "type": "python",
+            "request": "launch",
+            "module": "examples.example_drive_list",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Drive: Download File",
+            "type": "python",
+            "request": "launch",
+            "module": "examples.example_drive_download",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Drive: Upload File",
+            "type": "python",
+            "request": "launch",
+            "module": "examples.example_drive_upload",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Drive: Read/Write File",
+            "type": "python",
+            "request": "launch",
+            "module": "examples.example_drive_read_write",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "List: Get Items",
+            "type": "python",
+            "request": "launch",
+            "module": "examples.example_list_get",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "List: Create Item",
+            "type": "python",
+            "request": "launch",
+            "module": "examples.example_list_create",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "List: Update Item",
+            "type": "python",
+            "request": "launch",
+            "module": "examples.example_list_update",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
