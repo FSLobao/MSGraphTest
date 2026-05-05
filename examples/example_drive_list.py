@@ -6,10 +6,9 @@ Usage:
 """
 
 from dotenv import load_dotenv
+from msgraphtest.drive import list_drive_items
 
 load_dotenv()
-
-from msgraphtest.drive import list_drive_items
 
 
 def main() -> None:
